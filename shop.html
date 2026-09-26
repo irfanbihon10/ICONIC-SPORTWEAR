@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICONIC SPORTWEAR | Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                ICONIC <span>SPORTWEAR</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="details.html">Details</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+    <a href="cart.html">
+        🛒 Cart
+        <span id="cartCount">0</span>
+    </a>
+</li>
+            </ul>
+            <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search jersey...">
+    <button onclick="searchProduct()">🔍</button>
+</div>
+        </nav>
+    </header>
+
+    <!-- Shop Header -->
+    <section class="page-header">
+        <h1>OUR COLLECTION</h1>
+
+        <p>
+            Find your favorite football jersey.
+        </p>
+    </section>
+
+    <!-- Category Navigation -->
+    <section class="section">
+        <h2>SHOP BY CATEGORY</h2>
+
+        <p class="section-subtitle">
+            Choose your favorite jerseys
+        </p>
+
+        <div class="category-container">
+
+            <div class="category-card">
+                <div class="category-icon">⚽</div>
+
+                <h3>Club Jerseys</h3>
+
+                <p>
+                    Explore jerseys from your favorite clubs.
+                </p>
+
+                <a href="#club" class="text-link">
+                    View Jerseys →
+                </a>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">🌍</div>
+
+                <h3>Country Jerseys</h3>
+
+                <p>
+                    Represent your favorite national team.
+                </p>
+
+                <a href="#country" class="text-link">
+                    View Jerseys →
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Club Jerseys -->
+<section class="section" id="club">
+
+    <h2 class="section-title">Club Jerseys</h2>
+
+    <div class="product-container">
+
+        <div class="product-card">
+
+    <span class="hot-sell">🔥 HOT SELL</span>
+
+    <img src="images/jersey1.jpg" alt="Barcelona Home Kit">
+
+    <h3>Barcelona Home Kit</h3>
+
+    <p class="price">৳ 1200</p>
+
+    <a href="details.html?product=barcelona" class="btn">
+        VIEW DETAILS
+    </a>
+
+</div>
+
+        <div class="product-card">
+            <img src="images/jersey3.jpg" alt="Real Madrid Home Kit">
+            <h3>Real Madrid Home Kit</h3>
+            <p class="price">৳ 800</p>
+            <a href="details.html?product=real-madrid" class="btn">
+                VIEW DETAILS
+            </a>
+        </div>
+
+        <div class="product-card">
+            <img src="images/jersey4.jpg" alt="Man City Home Kit">
+            <h3>Man City Home Kit</h3>
+            <p class="price">৳ 1000</p>
+            <a href="details.html?product=man-city" class="btn">
+                VIEW DETAILS
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Country Jerseys -->
+<section class="section" id="country">
+
+    <h2 class="section-title">Country Jerseys</h2>
+
+    <div class="product-container">
+
+        <div class="product-card">
+            <img src="images/jersey2.jpg" alt="Argentina Home Kit">
+            <h3>Argentina Home Kit</h3>
+            <p class="price">৳ 1000</p>
+            <a href="details.html?product=argentina" class="btn">
+                VIEW DETAILS
+            </a>
+        </div>
+
+        <div class="product-card">
+
+    <span class="sale-badge">20% OFF</span>
+
+    <img src="images/jersey5.jpg" alt="Bangladesh Home Kit">
+
+    <h3>Bangladesh Home Kit</h3>
+
+    <p class="old-price">৳ 1600</p>
+
+    <p class="price">৳ 1280</p>
+
+    <a href="details.html?product=bangladesh" class="btn">
+        VIEW DETAILS
+    </a>
+
+        </div>
+
+    </div>
+
+</section>
+   
+    <!-- Footer -->
+    <footer>
+        <h3>ICONIC SPORTWEAR</h3>
+
+        <p>Wear Your Passion.</p>
+
+        <p>© 2026 ICONIC SPORTWEAR. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

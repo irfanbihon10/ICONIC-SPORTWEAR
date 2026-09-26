@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Details - ICONIC SPORTWEAR</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+
+        <div class="logo">
+            ICONIC <span>SPORTWEAR</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="details.html">Details</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+    <a href="cart.html">
+        🛒 Cart
+        <span id="cartCount">0</span>
+    </a>
+</li>
+        </ul>
+
+        <div class="search-box">
+
+    <div class="search-wrapper">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search jersey..."
+            autocomplete="off"
+        >
+
+        <div id="suggestions" class="suggestions"></div>
+
+    </div>
+
+    <button onclick="searchProduct()">🔍</button>
+
+</div>
+
+    </nav>
+
+
+    <!-- Product Details -->
+    <section class="details-section">
+
+        <div class="details-image">
+
+            <img id="productImage"
+                 src="images/jersey1.jpg"
+                 alt="Football Jersey">
+
+        </div>
+
+
+        <div class="details-info">
+
+            <p class="small-title">
+                ICONIC COLLECTION
+            </p>
+
+            <h2 id="productName">
+                Product Name
+            </h2>
+
+            <p class="details-price" id="productPrice">
+                ৳ 0
+            </p>
+            <p id="productOldPrice" class="old-price"></p>
+
+            <p id="productDiscount" class="discount"></p>
+            <p id="productDescription">
+                Premium quality football jersey made for
+                football lovers. Comfortable and stylish.
+            </p>
+
+
+            <h3>Available Sizes</h3>
+
+            <div class="sizes">
+                <span>S</span>
+                <span>M</span>
+                <span>L</span>
+                <span>XL</span>
+            </div>
+          <button class="cart-btn" id="addToCart">
+    🛒 ADD TO CART
+</button>
+
+<a href="order.html" class="btn" id="orderButton">
+    ORDER NOW
+</a>
+
+        
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>ICONIC SPORTWEAR</h3>
+
+        <p>Wear Your Passion.</p>
+
+        <p>
+            © 2026 ICONIC SPORTWEAR. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

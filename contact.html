@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICONIC SPORTWEAR | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                ICONIC <span>SPORTWEAR</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="details.html">Details</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+    <a href="cart.html">
+        🛒 Cart
+        <span id="cartCount">0</span>
+    </a>
+</li>
+            </ul>
+            <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search jersey...">
+    <button onclick="searchProduct()">🔍</button>
+</div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>CONTACT US</h1>
+        <p>We are here to help you.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+
+        <div class="contact-info">
+            <h2>GET IN TOUCH</h2>
+
+            <p>
+                Have a question about our jerseys?
+                Feel free to contact ICONIC SPORTWEAR.
+            </p>
+
+            <div class="contact-item">
+                <h3>📍 Address</h3>
+                <p>Dhaka, Bangladesh</p>
+            </div>
+
+            <div class="contact-item">
+                <h3>📞 Phone</h3>
+                <p>+880 1934466230</p>
+            </div>
+
+            <div class="contact-item">
+                <h3>✉ Email</h3>
+                <p>info@iconicsportwear.com</p>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>SEND US A MESSAGE</h2>
+
+            <form id="contactForm">
+
+                <label for="contactName">Your Name</label>
+                <input type="text" id="contactName"
+                       placeholder="Enter your name" required>
+
+                <label for="contactEmail">Your Email</label>
+                <input type="email" id="contactEmail"
+                       placeholder="Enter your email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" rows="5"
+                          placeholder="Write your message"
+                          required></textarea>
+
+                <button type="submit" class="btn">
+                    SEND MESSAGE
+                </button>
+
+            </form>
+
+            <p id="contactMessage"></p>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h3>ICONIC SPORTWEAR</h3>
+        <p>Wear Your Passion.</p>
+        <p>© 2026 ICONIC SPORTWEAR. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
